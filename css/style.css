@@ -1,0 +1,118 @@
+:root {
+  --colorPrimary: #1abc9c;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  height: 176px;
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar .button-register {
+  width: 180px;
+  height: 62px;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--colorPrimary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hero .button-check {
+  background-color: var(--colorPrimary);
+  height: 72px;
+  width: 280px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Category */
+.category .container h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.category .card.category-1 {
+  background-color: #76d7c4;
+  border: none;
+  border-radius: 10px;
+  height: 280px;
+  width: 280px;
+}
+.category .card.category-2 {
+  background-color: #5dade2;
+  border: none;
+  border-radius: 10px;
+  height: 280px;
+  width: 280px;
+}
+.category .card.category-3 {
+  background-color: #af7ac5;
+  border: none;
+  border-radius: 10px;
+  height: 280px;
+  width: 280px;
+}
+.category .card.category-4 {
+  background-color: #f1948a;
+  border: none;
+  border-radius: 10px;
+  height: 280px;
+  width: 280px;
+}
+
+.category .card h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* Daftar */
+.daftar .container h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.daftar .card {
+  border: none;
+  width: 280px;
+  height: 214px;
+}
+.daftar .card img {
+  border-radius: 10px 10px 0 0;
+  height: 170px;
+}
+.daftar .card .card-body {
+  border-radius: 0 0 10px 10px;
+  background-color: var(--colorPrimary);
+  height: 42px;
+  color: #fff;
+}
+
+.daftar .card h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
